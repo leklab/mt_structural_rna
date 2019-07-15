@@ -1,0 +1,116 @@
+<svg height="400" width="400" xmlns="http://www.w3.org/2000/svg">
+<style>
+
+ 	 	 text { 
+ 	 	 	 fill: blue; 
+ 	 	 	 font-family: monospace; 
+ 	 	 	 }
+
+ 	 	 line { 
+ 	 	 	 stroke: black; 
+ 	 	 	 stroke-width: 1; 
+ 	 	 	 }
+
+ 	 	 circle { 
+ 	 	 	 r: 2.5; 
+ 	 	 	 fill: black; 
+ 	 	 	 }
+</style>
+<text x="205" y="10" >A</text> 
+<text x="205" y="25" >C</text> 
+<text x="205" y="40" >C</text> 
+<text x="205" y="55" >G</text> 
+<text x="205" y="70" >A</text> 
+<text x="205" y="85" >T</text> 
+<text x="205" y="100" >C</text> 
+<text x="205" y="115" >T</text> 
+<text x="205" y="130" >G</text> 
+<text x="205" y="145" >G</text> 
+<text x="205" y="160" >T</text> 
+<text x="218" y="170" >T</text> 
+<text x="231" y="170" >A</text> 
+<text x="244" y="170" >C</text> 
+<text x="257" y="170" >C</text> 
+<text x="270" y="170" >C</text> 
+<text x="282" y="163" >T</text> 
+<text x="294" y="160" >G</text> 
+<text x="306" y="168" >A</text> 
+<text x="312" y="181.5" >A</text> 
+<text x="306" y="195" >T</text> 
+<text x="294" y="203" >T</text> 
+<text x="282" y="200" >T</text> 
+<text x="270" y="193" >G</text> 
+<text x="257" y="193" >G</text> 
+<text x="244" y="193" >G</text> 
+<text x="231" y="193" >T</text> 
+<text x="218" y="193" >G</text> 
+<text x="220" y="204" >T</text> 
+<text x="226" y="210" >T</text> 
+<text x="223" y="220" >T</text> 
+<text x="215" y="225" >G</text> 
+<text x="206" y="228" >T</text> 
+<text x="200" y="238" >G</text> 
+<text x="200" y="253" >A</text> 
+<text x="200" y="268" >A</text> 
+<text x="200" y="283" >T</text> 
+<text x="200" y="298" >C</text> 
+<text x="208" y="308" >A</text> 
+<text x="208" y="323" >A</text> 
+<text x="200" y="334" >T</text> 
+<text x="187.5" y="336" >T</text> 
+<text x="175" y="334" >G</text> 
+<text x="167" y="323" >T</text> 
+<text x="167" y="308" >C</text> 
+<text x="175" y="298" >G</text> 
+<text x="175" y="283" >A</text> 
+<text x="175" y="268" >T</text> 
+<text x="175" y="253" >T</text> 
+<text x="175" y="238" >C</text> 
+<text x="163" y="228" >G</text> 
+<text x="152" y="215" >T</text> 
+<text x="139" y="215" >G</text> 
+<text x="126" y="215" >G</text> 
+<text x="117" y="224" >G</text> 
+<text x="105" y="230" >A</text> 
+<text x="94" y="230" >T</text> 
+<text x="82" y="222.5" >T</text> 
+<text x="76" y="208.5" >A</text> 
+<text x="76" y="196" >G</text> 
+<text x="82" y="184.5" >T</text> 
+<text x="94" y="177" >T</text> 
+<text x="105" y="177" >G</text> 
+<text x="117" y="183" >A</text> 
+<text x="126" y="192" >C</text> 
+<text x="139" y="192" >C</text> 
+<text x="152" y="192" >G</text> 
+<text x="163" y="183" >A</text> 
+<text x="173" y="173" >A</text> 
+<text x="180" y="160" >G</text> 
+<text x="180" y="145" >T</text> 
+<text x="180" y="130" >T</text> 
+<text x="180" y="115" >A</text> 
+<text x="180" y="100" >G</text> 
+<text x="180" y="85" >A</text> 
+<text x="180" y="70" >T</text> 
+<line x1="190" y1="67" x2="205" y2="67" />
+<line x1="190" y1="82" x2="205" y2="82" />
+<line x1="190" y1="97" x2="205" y2="97" />
+<line x1="190" y1="112" x2="205" y2="112" />
+<circle cx="196" cy="127" r="2" />
+<circle cx="196" cy="142" r="2" />
+<circle cx="196" cy="157" r="2" />
+<circle cx="222" cy="177" r="2" />
+<line x1="235" y1="173" x2="235" y2="183" />
+<line x1="248" y1="173" x2="248" y2="183" />
+<line x1="261" y1="173" x2="261" y2="183" />
+<line x1="274" y1="173" x2="274" y2="183" />
+<line x1="180" y1="223" x2="203" y2="223" stroke-dasharray="2" />
+<line x1="185" y1="235" x2="198" y2="235" />
+<line x1="185" y1="250" x2="198" y2="250" />
+<line x1="185" y1="265" x2="198" y2="265" />
+<line x1="185" y1="280" x2="198" y2="280" />
+<line x1="185" y1="295" x2="198" y2="295" />
+<line x1="130" y1="195" x2="130" y2="205" />
+<line x1="142" y1="195" x2="142" y2="205" />
+<circle cx="156" cy="200" r="2" />
+</svg>
