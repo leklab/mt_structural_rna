@@ -13,18 +13,18 @@ if os.path.exists(args.startfile) and os.path.exists(args.destination):
     results = []
     zoomCoord = []
     startZoom = int(raw_input("Enter genomic coordinate "))
-    mutation = raw_input("Enter the mutation")
+    mutation = raw_input("Enter the mutation ")
     with open(args.startfile) as tsv:
         reader = csv.DictReader(tsv, delimiter="\t")
         for row in reader:
             infoType = row["Type"]
-            genCoord = row["Genomic Coordinate"]
-            normalBase = row["Base"]
             x1 = row["x1"]
             y1 = row["y1"]
+            normalBase = row["Base"]
+            genCoord = row["Genomic_Coordinate"]
             x2 = row["x2"]
             y2 = row["y2"]
-            result = [infoType, genCoord, normalBase, x1, y1, x2, y2]
+            result = [infoType, x1, y1, normalBase, genCoord, x2, y2]
             if infoType == "b":
                 if int(genCoord) == startZoom:
                     zoomCoord.append(x1)
@@ -51,10 +51,10 @@ if os.path.exists(args.startfile) and os.path.exists(args.destination):
             # f.write('<rect x="' + str(xRect) + '" y="' + str(yRect) + '" width="200" height="200" style="fill:yellow; fill-opacity: .5" />')
             for sublist in results:
                 infoType = sublist[0]
-                genCoord = sublist[1]
-                normalBase = sublist[2]
-                x1 = sublist[3]
-                y1 = sublist[4]
+                genCoord = sublist[4]
+                normalBase = sublist[3]
+                x1 = sublist[1]
+                y1 = sublist[2]
                 x2 = sublist[5]
                 y2 = sublist[6]
                 font = "monospace"
@@ -76,7 +76,7 @@ if os.path.exists(args.startfile) and os.path.exists(args.destination):
                         fontWeight = 'normal'
                         base = normalBase
                         title = genCoord
-                    f.write('<text x="' + x1 + '" y="' + y1 + '" style = "font-size: 8; fill: ' + textColor
+                    f.write('<text x="' + x1 + '" y="' + y1 + '" style = "font-size: 14; fill: ' + textColor
                             + '; font-family: ' + font + '; font-weight: ' + fontWeight + '; text-anchor: middle; dominant-baseline: middle;" > '
                             + base + '<title>' + title + '</title> </text>')
                 elif infoType == "l":
