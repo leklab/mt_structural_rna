@@ -1,1 +1,11 @@
-# Lisa got rid of me!
+# **mt_structural_rna**
+Visual representations of mitochondrial tRNA and rRNA using SVG
+
+## Requirements
+The scripts to create SVGs use Python 3.6 and the following Python libraries:
+- os
+- argparse
+- csv
+
+## Programs
+### Contexts
