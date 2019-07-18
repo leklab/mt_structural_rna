@@ -16,7 +16,7 @@ The scripts to create SVGs use Python 3.6 and the following Python libraries:
 - [reference_tRNA.py](variant.py): draw reference tRNA in SVG using input of specific TSV files
 
 ### Input/Output files
-- (unappended tsv files)[tsv]: input of mt-tRNA information for each gene, including:
+- (unappended tsv files)[https://github.com/leklab/mt_structural_rna/tree/master/tsv]: input of mt-tRNA information for each gene, including:
   - Type
     - b = base
     - l = lines
@@ -24,5 +24,5 @@ The scripts to create SVGs use Python 3.6 and the following Python libraries:
     - dl = dotted lines
   - Base
   - Coordinates
-- (appended tsv files)[tsv/tsv_appended]: input of mt-tRNA or mt-rRNA containing the information from unappended tsv files and the genomic coordinates that correspond to each base for each gene
-- (svg files)[svg]: output of the tsv files for each gene
+- (appended tsv files)[https://github.com/leklab/mt_structural_rna/tree/master/tsv/tsv_appended]: input of mt-tRNA or mt-rRNA containing the information from unappended tsv files and the genomic coordinates that correspond to each base for each gene
+- (svg files)[https://github.com/leklab/mt_structural_rna/tree/master/svg]: output of the tsv files for each gene
