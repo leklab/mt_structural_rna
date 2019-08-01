@@ -17,8 +17,8 @@ The scripts to create SVGs use Python 3.6 and the following Python libraries:
 
 ### Scripts will also prompt for
 - -i: input tsv file
-- Genomic Coordinate: The genomic coordinate of the mutation.
-- Mutation: The base that the mutation resulted in.
+- Genomic Coordinate: The genomic coordinate of the mutation
+- Mutation: Resulting base of the mutation
 - Direction: whether the tRNA is on the positive or negative strand (pos/neg, +/-, positive/negative)
 
 ### Input/Output files
