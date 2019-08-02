@@ -41,7 +41,7 @@ if os.path.exists(args.startfile) and os.path.exists(args.destination):
 							ref = row["REF"]
 							mutation = row["ALT"]
 							result = [chrom, mutCoord, ref, mutation]
-							if (int(mutCoord) - int(genCoord)) == 0:
+							if (int(mutCoord or "0") - int(genCoord or "0")) == 0:
 								textColor = 'red'
 
 				if infoType == "b":
