@@ -8,10 +8,21 @@ The scripts to create SVGs use Python 3.6 and the following Python libraries:
 - csv
 - glob
 
-## Content
+## Contents
+
+### RNR
+- [RNR.py](RNR.py): draws SVG files for mt-rRNA using inputs from tabs separated files
+- [RNR1.svg](RNR1.svg): SVG file for mt-rRNA1
+- [RNR1.tsv](RNR1.tsv): input file for bases, lines, and dots for mt-rRNA1
+- [RNR2.svg](RNR2.svg): SVG file for mt-rRNA2
+- [RNR2.tsv](RNR2.tsv): input file for bases for mt-rRNA2
+- [RNR2_pairs.tsv](RNR2_pairs.tsv): input file for bases for mt-rRNA2 with extra column of the genomic coordinates of the pair of each base
+
+### tRNA
+- [appended] 
+- [unappended]
 
 ### Programs
-- [rrna.py](rrna.py): draws SVG files for mt-rRNA using inputs from tabs separated files
 - [variant.py](variant.py): draws SVG files for a given gene showing the variant based on the input of genomic coordinate
 - [tRNA_add_coord.sh](tRNA_add_coord.sh): appends ALL genomic coordinates to tsv files in the same directory
 - [reference_tRNA.py](reference_tRNA.py): draw reference tRNA in SVG using input of specific TSV files
