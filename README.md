@@ -12,15 +12,15 @@ The scripts to create SVGs use Python 3.6 and the following Python libraries:
 
 ### RNR
 - [RNR.py](RNR/RNR.py): draws SVG files for mt-rRNA using inputs from tabs separated files
-- [RNR1.svg](RNR1.svg): SVG file for mt-rRNA1
-- [RNR1.tsv](RNR1.tsv): input file for bases, lines, and dots for mt-rRNA1
-- [RNR2.svg](RNR2.svg): SVG file for mt-rRNA2
-- [RNR2.tsv](RNR2.tsv): input file for bases for mt-rRNA2
-- [RNR2_pairs.tsv](RNR2_pairs.tsv): input file for bases for mt-rRNA2 with extra column of the genomic coordinates of the pair of each base
+- [RNR1.svg](RNR/RNR1.svg): SVG file for mt-rRNA1
+- [RNR1.tsv](RNR/RNR1.tsv): input file for bases, lines, and dots for mt-rRNA1
+- [RNR2.svg](RNR/RNR2.svg): SVG file for mt-rRNA2
+- [RNR2.tsv](RNR/RNR2.tsv): input file for bases for mt-rRNA2
+- [RNR2_pairs.tsv](RNR/RNR2_pairs.tsv): input file for bases for mt-rRNA2 with extra column of the genomic coordinates of the pair of each base
 
 ### tRNA
-- [appended](appended)
-- [unappended](unappended)
+- [appended](tRNA/appended): all files without genomic coordinates of bases
+- [unappended](tRNA/unappended): all files with genomic coordinates of bases
 
 ### Programs
 - [variant.py](variant.py): draws SVG files for a given gene showing the variant based on the input of genomic coordinate
