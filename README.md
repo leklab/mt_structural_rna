@@ -20,7 +20,11 @@ The scripts to create SVGs use Python 3.6 and the following Python libraries:
 
 ### tRNA
 - [appended](tRNA/appended): all files without genomic coordinates of bases
+  - [svg_appended](tRNA/svg_appended): SVG files of tRNA that shows the genomic coordinates when you hover your mouse over each base
+  - [MT-T()_appended.tsv](tRNA/appended): 
 - [unappended](tRNA/unappended): all files with genomic coordinates of bases
+  - [](
+
 
 ### Programs
 - [variant.py](variant.py): draws SVG files for a given gene showing the variant based on the input of genomic coordinate
