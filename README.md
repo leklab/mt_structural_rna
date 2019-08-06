@@ -11,7 +11,7 @@ The scripts to create SVGs use Python 3.6 and the following Python libraries:
 ## Contents
 
 ### RNR
-- [RNR.py](RNR.py): draws SVG files for mt-rRNA using inputs from tabs separated files
+- [RNR.py](RNR/RNR.py): draws SVG files for mt-rRNA using inputs from tabs separated files
 - [RNR1.svg](RNR1.svg): SVG file for mt-rRNA1
 - [RNR1.tsv](RNR1.tsv): input file for bases, lines, and dots for mt-rRNA1
 - [RNR2.svg](RNR2.svg): SVG file for mt-rRNA2
