@@ -19,8 +19,8 @@ The scripts to create SVGs use Python 3.6 and the following Python libraries:
 - [RNR2_pairs.tsv](RNR2_pairs.tsv): input file for bases for mt-rRNA2 with extra column of the genomic coordinates of the pair of each base
 
 ### tRNA
-- [appended] 
-- [unappended]
+- [appended](appended)
+- [unappended](unappended)
 
 ### Programs
 - [variant.py](variant.py): draws SVG files for a given gene showing the variant based on the input of genomic coordinate
