@@ -19,17 +19,26 @@ The scripts to create SVGs use Python 3.6 and the following Python libraries:
 - [RNR2_pairs.tsv](RNR/RNR2_pairs.tsv): input file for bases for mt-rRNA2 with extra column of the genomic coordinates of the pair of each base
 
 ### tRNA
-- [appended](tRNA/appended): all files without genomic coordinates of bases
+- [appended](tRNA/appended): all files with genomic coordinates of bases
   - [svg_appended](tRNA/svg_appended): SVG files of tRNA that shows the genomic coordinates when you hover your mouse over each base
-  - [MT-T()_appended.tsv](tRNA/appended): 
-- [unappended](tRNA/unappended): all files with genomic coordinates of bases
-  - [](
-
-
-### Programs
-- [variant.py](variant.py): draws SVG files for a given gene showing the variant based on the input of genomic coordinate
-- [tRNA_add_coord.sh](tRNA_add_coord.sh): appends ALL genomic coordinates to tsv files in the same directory
-- [reference_tRNA.py](reference_tRNA.py): draw reference tRNA in SVG using input of specific TSV files
+  - [MT-T()_ appended.tsv](tRNA/appended): input of mt-tRNA containing the information from unappended tsv files and the genomic coordinates that correspond to each base for each gene
+  - [pop_data.py](tRNA/appended/pop_data.py): 
+  - [pop_data.tsv](tRNA/appended/pop_data.tsv): 
+  - [reference_tRNA.py](tRNA/appended/reference_tRNA.py): draw reference tRNA in SVG using input of specific TSV files
+  - [tRNA.py](tRNA/appended/tRNA.py): draw reference tRNA in SVG using input of specific TSV files
+  - [tRNA_add_coord.sh](tRNA/appended/tRNA_add_coord.sh): appends ALL genomic coordinates to tsv files in the same directory
+  - [tRNA_genes.txt](tRNA/appended/tRNA_genes.txt): 
+  - [variant_all_genes.py](tRNA/appended/variant_all_genes.py): draws SVG files for a given gene showing the variant based on the input of genomic coordinate
+  - [variant_single_gene.py](variant_single_gene.py): draws SVG files for a given gene showing the variant based on the input of genomic coordinate
+  
+- [unappended](tRNA/unappended): input of mt-tRNA information for each gene, including:
+  - Type
+    - b = base
+    - l = lines (Watson-Crick pairs)
+    - d = dots (non Watson-Crick pairs)
+    - dl = dotted lines (other bonds)
+  - Base
+  - Coordinates
 
 ### Scripts will also prompt for
 - -i: input tsv file
