@@ -30,7 +30,7 @@ The scripts to create SVGs use Python 3.6 and the following Python libraries:
   - [tRNA_add_coord.sh](tRNA/appended/tRNA_add_coord.sh): appends ALL genomic coordinates to tsv files in the same directory
   - [tRNA_genes.txt](tRNA/appended/tRNA_genes.txt): information of start and end genomic coordinates and direction of each tRNA used in [tRNA_add_coord.sh](tRNA/appended/tRNA_add_coord.sh)
   - [variant_all_genes.py](tRNA/appended/variant_all_genes.py): upon insert of the genomic coordinate and base of a mutation, searches through all tRNA tsv files to produce a SVG image of the tRNA on which the mutation lies with the mutated base highlighted and changed
-  - [variant_single_gene.py](variant_single_gene.py): upon insert of the genomic coordinate and base of a mutation and the tRNA on which it lies, produces a SVG image of the tRNA on which the mutation lies with the mutated base highlighted and changed
+  - [variant_single_gene.py](tRNA/appended/variant_single_gene.py): upon insert of the genomic coordinate and base of a mutation and the tRNA on which it lies, produces a SVG image of the tRNA on which the mutation lies with the mutated base highlighted and changed
   
 - [unappended](tRNA/unappended): input of mt-tRNA information for each gene, including:
   - Type
