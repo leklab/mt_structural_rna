@@ -46,7 +46,7 @@ The scripts to create SVGs use Python 3.6 and the following Python libraries:
 - every other python script: python   ().py   (input file).tsv   (output file).svg
 - [tRNA_add_coord.sh](tRNA/appended/tRNA_add_coord.sh): source tRNA_add_coord.sh * .tsv
 
-### Scripts will also prompt for
+### variant scripts will prompt for
 - Genomic Coordinate: The genomic coordinate of the mutation
 - Mutation: Resulting base of the mutation
 - Direction: whether the tRNA is on the positive or negative strand (pos/neg, +/-, positive/negative)
