@@ -43,7 +43,7 @@ The scripts to create SVGs use Python 3.6 and the following Python libraries:
   
 ### Command line inputs
 -  [reference_tRNA.py](tRNA/appended/reference_tRNA.py): python reference_tRNA.py -i MT-T().tsv
-- every other python script: python   ().py   (input file).tsv  (output file).svg
+- every other python script: python   ().py   (input file).tsv   (output file).svg
 - [tRNA_add_coord.sh](tRNA/appended/tRNA_add_coord.sh): source tRNA_add_coord.sh * .tsv
 
 ### Scripts will also prompt for
