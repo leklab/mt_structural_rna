@@ -39,7 +39,7 @@ The scripts to create SVGs use Python 3.6 and the following Python libraries:
     - dl = dotted lines (other bonds)
   - Base
   - Coordinates
--  [reference_tRNA.py](tRNA/unappended/tsv_unappended/reference_tRNA.py): older code that draws reference tRNA in SVG using input of specific unappended TSV files
+  -  [reference_tRNA.py](tRNA/unappended/tsv_unappended/reference_tRNA.py): older code that draws reference tRNA in SVG using input of specific unappended TSV files
 ### Command line inputs
 -  [reference_tRNA.py](tRNA/appended/reference_tRNA.py): python reference_tRNA.py -i MT-T().tsv
 - every other python script: python   ().py   (input file).tsv   (output file).svg
