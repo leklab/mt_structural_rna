@@ -23,10 +23,9 @@ The scripts to create SVGs use Python 3.6 and the following Python libraries:
 - [appended](tRNA/appended): all files of or relating to genomic coordinates of tRNA bases
   - [svg_appended](tRNA/appended/svg_appended): SVG files of tRNA that show the genomic coordinates when you hover your mouse over each base
   - [MT-T()_ appended.tsv](tRNA/appended): input of each mt-tRNA containing the information from unappended tsv files, the genomic coordinates that correspond to each base, and the pair for half of the bases
-  - [pop_data.py](tRNA/appended/pop_data.py): upon input of the tsv file of a certain tRNA, produces a SVG image that represents bases with common mutations from [pop_data.tsv](tRNA/appended/pop_data.tsv) in red and other bases in black
-  - [pop_data.tsv](tRNA/appended/pop_data.tsv): Gnomad population data of the common mutations at every base from a study of ~17000 individuals
-  - [reference_tRNA.py](tRNA/appended/reference_tRNA.py): older code that draws reference tRNA in SVG using input of specific TSV files
-  - [tRNA.py](tRNA/appended/tRNA.py): newer code based on Jenny's RNR code that also draws reference tRNA in SVG using input of specific TSV files
+  - [pop_data.py](tRNA/appended/pop_data.py): upon input of the tsv file of a certain tRNA, produces a SVG image that represents bases with common mutations from [pop_data.txt](tRNA/appended/pop_data.txt) in red and other bases in black
+  - [pop_data.txt](tRNA/appended/pop_data.txt): Gnomad population data of the common mutations at every base from a study of ~17000 individuals
+  - [tRNA.py](tRNA/appended/tRNA.py): newer code based on Jenny's RNR code that draws reference tRNA in SVG using input of specific appended TSV files
   - [tRNA_add_coord.sh](tRNA/appended/tRNA_add_coord.sh): appends ALL genomic coordinates to tsv files in the same directory
   - [tRNA_genes.txt](tRNA/appended/tRNA_genes.txt): information of start and end genomic coordinates and direction of each tRNA used in [tRNA_add_coord.sh](tRNA/appended/tRNA_add_coord.sh)
   - [variant_all_genes.py](tRNA/appended/variant_all_genes.py): upon insert of the genomic coordinate and base of a mutation, searches through all tRNA tsv files to produce a SVG image of the tRNA on which the mutation lies with the mutated base highlighted and changed
@@ -40,7 +39,7 @@ The scripts to create SVGs use Python 3.6 and the following Python libraries:
     - dl = dotted lines (other bonds)
   - Base
   - Coordinates
-  
+-  [reference_tRNA.py](tRNA/unappended/tsv_unappended/reference_tRNA.py): older code that draws reference tRNA in SVG using input of specific unappended TSV files
 ### Command line inputs
 -  [reference_tRNA.py](tRNA/appended/reference_tRNA.py): python reference_tRNA.py -i MT-T().tsv
 - every other python script: python   ().py   (input file).tsv   (output file).svg
