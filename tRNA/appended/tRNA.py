@@ -42,8 +42,6 @@ if os.path.exists(args.startfile) and os.path.exists(args.destination):
                 elif infoType == "d":
                     f.write('<circle cx="' + x1 + '" cy="' + y1 + '" r="2" style="fill: ' + circleColor + ';" >'
                             + '<title>' + x1 + ',' + y1 + '</title> </circle>')
-                elif fields[0]=='dl':
-                    print("<line x1=\"{0}\" y1=\"{1}\" x2=\"{2}\" y2=\"{3}\" stroke-dasharray=\"2\" />".format(fields[1],fields                            {2],fields[3],fields[4]))
             f.write('</svg>')
             print "Finished"
 else:
